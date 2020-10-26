@@ -199,9 +199,17 @@
 		})
 
 		//Starts counter
-		const mylis = document.querySelectorAll('.stars');
-		let roots = Array.from(mylis).map(function(num) {
-			num.innerHTML = '<span class="icon-star"></span><span class="icon-star"></span><span class="icon-star"></span><span class="icon-star"></span><span class="icon-star"></span>'; 
+		const myrate = document.querySelectorAll('.stars');
+		let roots = Array.from(myrate).map(function(num) {
+			const count = 5;
+			let singstar = '<span class="icon-star"></span>';
+			let multystars = [];
+
+			for (var i = 0; i < count; i++){
+				multystars.push(singstar);
+			}
+
+			num.innerHTML = multystars.join(""); 
 		})
 	</script>
 
