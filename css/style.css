@@ -311,7 +311,9 @@ div[data-lvl="1"] .stars > span.icon-star:nth-child(n+2){
 
 .title:before{
 	width: 80px;
-	height: 50px;
+	height: 100%;
+	padding: 5px;
+	box-sizing: initial;
 	background: #64cdb3;
 	position: absolute;
 	top: -5px;
