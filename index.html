@@ -241,14 +241,14 @@
 								<div class="colw-100">
 									<div class="txt-edit smaller">
 										I’m dedicated to my work as I work for the pleasure of it. <br><br>
-										- 14 Years Designing experience <br>
-										- 11 Year of Web Designing experience <br>
-										- 3D skills in 3ds Max, Blender & ZBrush <br>
-										- Great internet researcher
+										- <span id="designdate" data-date="2006"></span> Years of Designing experience.<br>
+										- <span id="webdate" data-date="2009"></span> Years of Web Designing experience.<br>
+										- 3D skills in 3ds Max, Blender & ZBrush.<br>
+										- Great internet researcher.
 										<br><br>
-										I'm currently focusing on evolving my skills and to jump from UI UX designing to a full stack developer, as I will be using my creativity and Knowledge that I gathered in the previews years and combine it into a one solid combination that cannot be ignored.
+										I'm currently focusing on evolving my skills and to jump from UI UX designing to a full stack developer, as I will be using my creativity and Knowledge that I gathered in the previous years and combine it into one solid combination that cannot be ignored.
 										<br><br>
-										Best regards
+										Best regards,
 										<br><br>
 										Charbel Saad
 									</div>
@@ -260,6 +260,18 @@
 			</div>
 		</div>
 	</div>
+
+	<script>
+		var d = new Date();
+		var n = d.getFullYear();
+		const designdate = document.querySelector('#designdate');
+		const webdate = document.querySelector('#webdate');
+		const calcdatedes = n - designdate.dataset.date;
+		const calcdateweb = n - webdate.dataset.date;
+
+		designdate.innerHTML = calcdatedes;
+		webdate.innerHTML = calcdateweb;
+	</script>
 
 </body>
 </html>
