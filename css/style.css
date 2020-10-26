@@ -377,6 +377,7 @@ div[data-lvl="1"] .stars > span.icon-star:nth-child(n+2){
 
 	html, body{
 		height: auto;
+		font-size: 4vw;
 	}
 
 	.flex{
