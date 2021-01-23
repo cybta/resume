@@ -348,6 +348,9 @@ div[data-lvl="1"] .stars > span.icon-star:nth-child(n+2){
 	padding: 0 20px 20px;
 	cursor: pointer;
 	position: relative;
+	transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
 }
 
 .jobtitle:before,
@@ -478,6 +481,25 @@ div[data-lvl="1"] .stars > span.icon-star:nth-child(n+2){
 
 	.fh{
 		height: auto;
+	}
+
+	.jobtitle {
+		padding:  0 0 20px 0;
+	}
+
+	ul li.open .jobtitle {
+		padding:  0 20px 20px;
+	}
+
+	.jobtitle:before,
+	.jobtitle:after{
+		width: 15px;
+		right: 0;
+	}
+
+	ul li.open .jobtitle:before,
+	ul li.open .jobtitle:after{
+		right: 20px;
 	}
 
 }
