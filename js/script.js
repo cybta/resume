@@ -18,3 +18,27 @@ let roots = Array.from(myrate).map(function(num) {
 
 	num.innerHTML = multystars.join(""); 
 })
+
+
+//ACCORDION STARTS HERE
+const accordion = document.querySelector('.accordion');
+const items     = accordion.querySelectorAll('li');
+const jobtitle = accordion.querySelectorAll('.jobtitle');
+
+//Lets figure out what item to click
+function toggleAccordion() {
+  const thisItem = this.parentNode;
+  
+    items.forEach(item => {
+      if (thisItem == item) {
+        thisItem.classList.toggle('open');
+        return;
+    }
+  
+    item.classList.remove('open');
+  });
+}
+
+
+
+jobtitle.forEach(question => question.addEventListener('click', toggleAccordion));

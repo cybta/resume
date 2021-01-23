@@ -1,4 +1,8 @@
-*{box-sizing: border-box;}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 
 html, body {
 	margin:0;
@@ -23,6 +27,10 @@ h1, h2, h3, h4, h5, h6 {
 p{
    font-size: 1em;
    line-height: 1.35em;
+}
+
+ul {
+	list-style: none;
 }
 
 
@@ -203,7 +211,7 @@ a:hover {
 
 .flex{display: flex}
 .flex.fw{width: 100%}
-.flex.fh{height: 100%}
+.flex.fh{min-height: 100%}
 
 .flex.ai-c{align-items: center;}
 .flex.ai-s{align-items: stretch;}
@@ -211,6 +219,8 @@ a:hover {
 
 .flex.jc-sb{justify-content: space-between;}
 .flex.fd-c{flex-direction: column;}
+
+.flex.fw-w{flex-wrap: wrap;}
 
 .flex > div.as-s{align-self: start;}
 .flex > div.as-c{align-self: center;}
@@ -224,8 +234,8 @@ a:hover {
 	color: #fff;
 }
 
-.skills{background: #f0f0f0;}
-.exp{background: #e2e2e2;}
+.skills, .summary{background: #f0f0f0;}
+.exp, .objectives{background: #e2e2e2;}
 .cl{background: #cecece;}
 
 .stars{
@@ -293,13 +303,6 @@ div[data-lvl="1"] .stars > span.icon-star:nth-child(n+2){
 	color: #000;
 }
 
-
-.skillslist{
-	height: 225px;
-	flex-wrap:wrap;
-}
-
-
 .skillslist > div > div{
 	background: #fff;
 }
@@ -326,6 +329,74 @@ div[data-lvl="1"] .stars > span.icon-star:nth-child(n+2){
 .smaller{
 	font-size: .85rem;
 	line-height: 1.2em;
+}
+
+.accordion li{
+	margin-bottom: 20px;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+	transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+}
+
+.accordion li:last-child{
+	margin-bottom: 0;
+	border-bottom: none;
+}
+
+.jobtitle {
+	padding: 0 20px 20px;
+	cursor: pointer;
+	position: relative;
+}
+
+.jobtitle:before,
+.jobtitle:after{
+	width: 25px;
+	height: 2px;
+	background: #444;
+	position: absolute;
+	right: 25px;
+	top: 50%;
+	margin-top: -1px;
+	content: "";
+	transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+}
+
+.jobtitle:after{
+	transform: rotate(90deg);
+}
+
+.jobdesc {
+	max-height: 0;
+	overflow: hidden;
+	transition: .8s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+
+.jobdesc > div{
+	padding: 0 20px 20px;
+}
+
+.accordion li.open {
+	padding-top: 15px;
+	background: #fff;
+}
+
+.accordion li.open .jobdesc {
+	max-height: 850px;
+}
+
+.accordion li.open .jobtitle:after{
+	transform: rotate(0deg);
+}
+
+.mt-25{
+	margin-top: 25px;
+}
+.pb-35{
+	padding-bottom: 35px;
 }
 
 
