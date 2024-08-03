@@ -1,0 +1,255 @@
+{
+  "basicData": {
+    "name": "Charbel Saad",
+    "title": "Web Application Lead",
+    "whoIam": {
+      "title": "Who am I",
+      "gender": {
+        "title": "Gender",
+        "value": "Male"
+      },
+      "dob": {
+        "title": "D.O.B",
+        "value": "June 7th, 1987"
+      },
+      "email": {
+        "title": "Email",
+        "value": "c.saad@live.com"
+      },
+      "mobile": {
+        "title": "Mobile",
+        "value": "+7 (916) 991 9930",
+        "call": "+79169919930"
+      },
+      "address": {
+        "title": "Address",
+        "value": "Russia - Moscow, Reutov, Moscow Oblast."
+      }
+    },
+    "education": {
+      "title": "My Education",
+      "diploma": ["AKU 2006-2010 (BA in Multimedia)"],
+      "languages": [
+        "Fluent in Arabic: Speaking, writing & reading",
+        "Fluent in English: Speaking, writing & reading",
+        "Proficient in French: Speaking, writing & reading",
+        "A2 in Russian: Speaking, writing & reading"
+      ]
+    }
+  },
+  "mainData": {
+    "summary": {
+      "title": "My Summary",
+      "data": "A pixel-perfect front-end developer with 8 years of UI/UX experience and a passion for responsive website design. A firm believer in the mobile-first approach, I implemented a new responsive website strategy that increased mobile traffic by 20%."
+    },
+    "objectives": {
+      "title": "My Objectives",
+      "data": "I am a motivated and diligent developer who continuously seeks to push boundaries and explore new technologies. I thrive on acquiring new knowledge and skills."
+    },
+    "skills": {
+      "title": "My Skills",
+      "list": [
+        {
+          "name": "HTML 5",
+          "lvl": 5,
+          "state": "still"
+        },
+        {
+          "name": "CSS 3",
+          "lvl": 5,
+          "state": "still"
+        },
+        {
+          "name": "Sass",
+          "lvl": 4,
+          "state": "increase"
+        },
+        {
+          "name": "SCSS",
+          "lvl": 4,
+          "state": "increase"
+        },
+        {
+          "name": "Less",
+          "lvl": 4,
+          "state": "decrease"
+        },
+        {
+          "name": "Javascript",
+          "lvl": 5,
+          "state": "increase"
+        },
+        {
+          "name": "Typescript",
+          "lvl": 4,
+          "state": "increase"
+        },
+        {
+          "name": "React.js",
+          "lvl": 5,
+          "state": "increase"
+        },
+        {
+          "name": "Git",
+          "lvl": 4,
+          "state": "increase"
+        },
+        {
+          "name": "Node.js",
+          "lvl": 4,
+          "state": "increase"
+        },
+        {
+          "name": "Photoshop script",
+          "lvl": 4,
+          "state": "increase"
+        },
+        {
+          "name": "UXP Plugins",
+          "lvl": 4,
+          "state": "increase"
+        },
+        {
+          "name": "JQuery",
+          "lvl": 4,
+          "state": "still"
+        },
+        {
+          "name": "Unity 3D",
+          "lvl": 3,
+          "state": "increase"
+        },
+        {
+          "name": "C#",
+          "lvl": 3,
+          "state": "increase"
+        },
+        {
+          "name": "PHP",
+          "lvl": 3,
+          "state": "decrease"
+        },
+        {
+          "name": ".Net",
+          "lvl": 3,
+          "state": "decrease"
+        },
+        {
+          "name": "SQL",
+          "lvl": 4,
+          "state": "increase"
+        },
+        {
+          "name": "NO SQL",
+          "lvl": 3,
+          "state": "increase"
+        },
+        {
+          "name": "PostgreSQL",
+          "lvl": 4,
+          "state": "increase"
+        },
+        {
+          "name": "Adobe Photoshop",
+          "lvl": 5,
+          "state": "still"
+        },
+        {
+          "name": "Adobe Illustrator",
+          "lvl": 4,
+          "state": "still"
+        },
+        {
+          "name": "Adobe XD",
+          "lvl": 4,
+          "state": "increase"
+        },
+        {
+          "name": "Figma",
+          "lvl": 4,
+          "state": "increase"
+        },
+        {
+          "name": "Blender",
+          "lvl": 4,
+          "state": "increase"
+        },
+        {
+          "name": "Z Brush",
+          "lvl": 4,
+          "state": "increase"
+        },
+        {
+          "name": "Fusion 360",
+          "lvl": 4,
+          "state": "increase"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Where I Have Been",
+      "responsibilitiesTitle": "Key Qualifications & Responsibilities",
+      "achievementsTitle": "Key Achievements",
+      "list": [
+        {
+          "id": "job01",
+          "time": "2020 - Present",
+          "position": "Sr. Front-End Developer | Web App Lead (Feb 2023)",
+          "company": "Brightline, New York - USA",
+          "responsibilities": [
+            "Creating interactive advertisements with microsites and serving them on streaming apps like Disney+, Hulu, Discovery+, and NBCU.",
+            "Developing JavaScript SDK for NBCU/Peacock streaming app using the Lightning JS canvas framework, integrating, and maintaining HTML creatives across multiple platforms, including iOS, Android, Android TV, Fire TV, Nintendo, PlayStation, Xbox, Tizen TV, and more.",
+            "Creator of a platform using the PERN stack to automatically deploy a full AD with a single button by uploading the assets, utilizing AWS. Developing a wizard-like tool for partners to create microsites by simply uploading a zip file, a video, and an image, generating and adjusting deployment files with Node.js and AWS."
+          ],
+          "achievements": "Ensured cross-platform compatibility across OTT devices, consoles, mobile, and web."
+        },
+        {
+          "id": "job02",
+          "time": "2014 - 2020",
+          "position": "Front-End Developer",
+          "company": "Activeweb, Sodeco - Lebanon",
+          "responsibilities": [
+            "Implemented websites, mobile applications, and landing pages from concept through deployment.",
+            "Standardized all output with a new, responsive, mobile-first approach and strategy.",
+            "Assessed UX and UI designs for technical feasibility.",
+            "Debugged code for bug-free websites.",
+            "Developed standard and ad hoc reports in graph format as required.",
+            "Collaborated with product team members to implement new feature developments.",
+            "From 2017 to 2020, worked as a Fullstack Developer using the PERN stack to create e-commerce websites."
+          ],
+          "achievements": "Implemented a new responsive, mobile-first approach, increasing mobile traffic by 20%."
+        },
+        {
+          "id": "job03",
+          "time": "2012 - 2014",
+          "position": "UI/UX Developer | Front-End Developer",
+          "company": "Rightclick S.A.L., Antelias - Lebanon",
+          "responsibilities": [
+            "Conducted meetings with clients to understand their vision.",
+            "Engaged in brainstorming sessions to create impactful designs.",
+            "Developed wireframes to structure each section of the application.",
+            "Initiated the design process using Adobe products."
+          ],
+          "achievements": "Implemented new design trends, enhancing application aesthetics and usability."
+        },
+        {
+          "id": "job04",
+          "time": "2009 - 2012",
+          "position": "Graphic Designer & Pre-Press Operator",
+          "company": "Jec Express, Mekalles - Lebanon",
+          "responsibilities": [
+            "Held client meetings to capture their vision.",
+            "Engaged in brainstorming sessions post-client meetings.",
+            "Created brands and designed corporate identities.",
+            "Prepared files for printing."
+          ],
+          "achievements": "Designed and developed brands that enhanced client revenue."
+        }
+      ]
+    },
+    "whyMe": {
+      "title": "Why Me?",
+      "description": "<p>With my design background.</p><br /><br />\n <ul>\n <li><span class=\"expdate\" id=\"designdate\" data-date=\"2006\"></span> Years of Designing experience.</li>\n<li><span class=\"expdate\" id=\"webdate\" data-date=\"2009\"></span> Years of Web Development experience.</li>\n<li>3D skills in 3ds Max, Blender & ZBrush.</li>\n<li>Great internet researcher.</li>\n</ul><br /><br />\n<p>I'm currently focusing on full stack development, three.js, GSAP as I use my creativity and Knowledge that I gathered in the previous years and combine it into one solid combination that cannot be ignored.</p><br /><br />\n<p>Best regards,<br /><br />Charbel Saad</p>"
+    }
+  }
+}
