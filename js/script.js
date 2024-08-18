@@ -1,4 +1,3 @@
-let fallback = 'data/data-en.json';
 const app = document.getElementById('app');
 
 function getQueryParam(param) {

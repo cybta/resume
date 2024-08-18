@@ -187,21 +187,22 @@
       ]
     },
     "experience": {
-      "title": "Where I Have Been",
+      "title": "Professional Experience",
       "responsibilitiesTitle": "Key Qualifications & Responsibilities",
       "achievementsTitle": "Key Achievements",
       "list": [
         {
           "id": "job01",
           "time": "2020 - Present",
-          "position": "Sr. Front-End Developer | Web App Lead (Feb 2023)",
+          "position": "Senior Front-End Developer | Web Application Lead (Feb 2023)",
           "company": "Brightline, New York - USA",
           "responsibilities": [
-            "Creating interactive advertisements with microsites and serving them on streaming apps like Disney+, Hulu, Discovery+, and NBCU.",
-            "Developing JavaScript SDK for NBCU/Peacock streaming app using the Lightning JS canvas framework, integrating, and maintaining HTML creatives across multiple platforms, including iOS, Android, Android TV, Fire TV, Nintendo, PlayStation, Xbox, Tizen TV, and more.",
-            "Creator of a platform using the PERN stack to automatically deploy a full AD with a single button by uploading the assets, utilizing AWS. Developing a wizard-like tool for partners to create microsites by simply uploading a zip file, a video, and an image, generating and adjusting deployment files with Node.js and AWS."
+            "Developing interactive advertisements with microsites for streaming platforms including Disney+, Hulu, Discovery+, and NBCU.",
+            "Creating and maintaining a JavaScript SDK for the NBCU/Peacock streaming app using the Lightning JS canvas framework. Ensuring seamless integration and functionality across various platforms such as iOS, Android, Android TV, Fire TV, Nintendo, PlayStation, Xbox, Tizen TV, and more.",
+            "Designing and implementing a PERN stack-based platform for automated ad deployment, allowing partners to deploy full advertisements with a single button press by uploading assets. Utilizing AWS for efficient asset management and deployment.",
+            "Developing a UXP plugin for Photoshop to streamline asset export from PSD files, including video and font file handling. This plugin integrates with the previously mentioned ad deployment platform."
           ],
-          "achievements": "Ensured cross-platform compatibility across OTT devices, consoles, mobile, and web."
+          "achievements": "Successfully ensured cross-platform compatibility for a diverse range of devices, contributing to a unified and engaging user experience across OTT platforms and gaming consoles."
         },
         {
           "id": "job02",
@@ -209,15 +210,15 @@
           "position": "Front-End Developer",
           "company": "Activeweb, Sodeco - Lebanon",
           "responsibilities": [
-            "Implemented websites, mobile applications, and landing pages from concept through deployment.",
-            "Standardized all output with a new, responsive, mobile-first approach and strategy.",
-            "Assessed UX and UI designs for technical feasibility.",
-            "Debugged code for bug-free websites.",
-            "Developed standard and ad hoc reports in graph format as required.",
-            "Collaborated with product team members to implement new feature developments.",
-            "From 2017 to 2020, worked as a Fullstack Developer using the PERN stack to create e-commerce websites."
+            "Developed and deployed websites, mobile applications, and landing pages from initial concept through to final launch.",
+            "Implemented a responsive, mobile-first approach that standardized output and enhanced user experience.",
+            "Evaluated UX and UI designs for technical feasibility and provided solutions to optimize performance.",
+            "Debugged and refined code to ensure high-quality, bug-free websites.",
+            "Created standard and custom reports in graphical formats as required.",
+            "Collaborated with product teams to introduce and develop new features.",
+            "Transitioned to Fullstack Developer from 2017 to 2020, utilizing the PERN stack to build dynamic e-commerce websites."
           ],
-          "achievements": "Implemented a new responsive, mobile-first approach, increasing mobile traffic by 20%."
+          "achievements": "Successfully increased mobile traffic by 20% through the implementation of a new responsive, mobile-first strategy."
         },
         {
           "id": "job03",
@@ -225,12 +226,12 @@
           "position": "UI/UX Developer | Front-End Developer",
           "company": "Rightclick S.A.L., Antelias - Lebanon",
           "responsibilities": [
-            "Conducted meetings with clients to understand their vision.",
-            "Engaged in brainstorming sessions to create impactful designs.",
-            "Developed wireframes to structure each section of the application.",
-            "Initiated the design process using Adobe products."
+            "Led client meetings to understand and translate their vision into actionable design concepts.",
+            "Conducted brainstorming sessions to develop impactful and innovative designs.",
+            "Created detailed wireframes to organize and structure application sections effectively.",
+            "Initiated and guided the design process using Adobe Creative Suite products."
           ],
-          "achievements": "Implemented new design trends, enhancing application aesthetics and usability."
+          "achievements": "Enhanced application aesthetics and usability by integrating the latest design trends and practices."
         },
         {
           "id": "job04",
@@ -238,15 +239,16 @@
           "position": "Graphic Designer & Pre-Press Operator",
           "company": "Jec Express, Mekalles - Lebanon",
           "responsibilities": [
-            "Held client meetings to capture their vision.",
-            "Engaged in brainstorming sessions post-client meetings.",
-            "Created brands and designed corporate identities.",
-            "Prepared files for printing."
+            "Held client consultations to capture and understand their design needs.",
+            "Participated in brainstorming sessions to generate creative design solutions.",
+            "Designed brand identities and corporate materials, ensuring alignment with client objectives.",
+            "Prepared and optimized files for high-quality printing."
           ],
-          "achievements": "Designed and developed brands that enhanced client revenue."
+          "achievements": "Created and developed compelling brands that contributed to increased client revenue and market presence."
         }
       ]
     },
+
     "whyMe": {
       "title": "Why Me?",
       "description": "<p>With my design background.</p><br /><br />\n <ul>\n <li><span class=\"expdate\" id=\"designdate\" data-date=\"2006\"></span> Years of Designing experience.</li>\n<li><span class=\"expdate\" id=\"webdate\" data-date=\"2009\"></span> Years of Web Development experience.</li>\n<li>3D skills in 3ds Max, Blender & ZBrush.</li>\n<li>Great internet researcher.</li>\n</ul><br /><br />\n<p>I'm currently focusing on full stack development, three.js, GSAP as I use my creativity and Knowledge that I gathered in the previous years and combine it into one solid combination that cannot be ignored.</p><br /><br />\n<p>Best regards,<br /><br />Charbel Saad</p>"
